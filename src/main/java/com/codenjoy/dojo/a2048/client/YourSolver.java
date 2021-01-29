@@ -52,8 +52,8 @@ public class YourSolver implements Solver<Board> {
         WebSocketRunner.runClient(args,
                 // paste here board page url from browser after registration
                 // or put it as command line parameter
-				// UPDATED
-                "http://codsenjoy.com:80/codenjoy-contest/board/player/3edq63tw0bq4w4iem7nb?code=1234567890123456789",
+				// UPDATED2
+                "http://cods2enjoy.com:80/codenjoy-contest/board/player/3edq63tw0bq4w4iem7nb?code=1234567890123456789",
                 new YourSolver(new RandomDice()),
                 new Board());
     }
